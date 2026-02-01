@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DATABASE_URL = f"sqlite:///{BASE_DIR}/vibecheck.db"
 
 # Security settings
-SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-change-in-production")
+SECRET_KEY = os.getenv("SECRET_KEY", "your-default-secret-key")
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
