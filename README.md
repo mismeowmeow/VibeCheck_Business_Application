@@ -1,2 +1,2 @@
 # VibeCheck_Business_Application
-A business review project
+An application for reviewing different businesses
